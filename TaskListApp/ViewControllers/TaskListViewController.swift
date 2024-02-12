@@ -20,8 +20,10 @@ final class TaskListViewController: UITableViewController {
     }
     
     @objc private func addNewTask() {
-        showAlert(withTitle: "New Task", andMessage: "What do you want to do&")
+        showAlert(withTitle: "New Task", andMessage: "What do you want to do?")
     }
+    
+    // TODO: - editTask method
     
     private func fetchData() {
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
