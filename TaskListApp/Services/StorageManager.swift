@@ -35,4 +35,11 @@ final class StorageManager {
             }
         }
     }
+    
+    // MARK: - Delete item
+    func deleteItem(_ taskName: ToDoTask) {
+        let context = persistentContainer.viewContext
+        context.delete(taskName)
+        saveContext()
+    }
 }

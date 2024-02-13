@@ -43,7 +43,6 @@
 			isa = PBXGroup;
 			children = (
 				A8F9D4DC2B79350600B80334 /* Assets.xcassets */,
-				A8F9D4D92B79350400B80334 /* TaskListApp.xcdatamodeld */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -53,6 +52,7 @@
 			children = (
 				A8F9D4D02B79350400B80334 /* AppDelegate.swift */,
 				A8F9D4D22B79350400B80334 /* SceneDelegate.swift */,
+				A8F9D4D92B79350400B80334 /* TaskListApp.xcdatamodeld */,
 				A8F9D4E12B79350600B80334 /* Info.plist */,
 			);
 			path = App;
